@@ -1,0 +1,51 @@
+.home {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/nasa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.link_login {
+  float: right;
+  padding-right: 40px;
+  padding-top: 20px;
+  text-decoration: none;
+  font-size: 20p;
+  color: white;
+  font-weight: bold;
+}
+
+.link_register {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
+
+.get_leason {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.button_getstarted {
+  width: 250px;
+  height: 60px;
+  border: none;
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  color: #313131;
+  border-radius: 30px;
+}
+
+.button_getstarted:hover {
+  background-color: royalblue;
+  color: white;
+}

@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "qmhwmmaxpeakdr",
+    "password": "9f0200fce210352193d2328d171ab745605d5034be631bf20a10a4874314b560",
+    "database": "dfs8ufjma179eh",
+    "host": "ec2-184-73-243-101.compute-1.amazonaws.com",
+    "dialect": "postgres",
+     "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "qmhwmmaxpeakdr",
+    "password": "9f0200fce210352193d2328d171ab745605d5034be631bf20a10a4874314b560",
+    "database": "dfs8ufjma179eh",
+    "host": "ec2-184-73-243-101.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "qmhwmmaxpeakdr",
+    "password": "9f0200fce210352193d2328d171ab745605d5034be631bf20a10a4874314b560",
+    "database": "dfs8ufjma179eh",
+    "host": "ec2-184-73-243-101.compute-1.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}

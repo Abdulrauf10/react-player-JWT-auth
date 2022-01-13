@@ -1,0 +1,47 @@
+.russian {
+  background-color: #212121;
+  height: 100vh;
+}
+
+.card_video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.button_play {
+  display: flex;
+  justify-content: center;
+  margin-top: -150px;
+}
+
+.button_go {
+  margin-right: 10px;
+  padding: 10px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: #212121;
+  font-weight: bold;
+}
+
+.button_playvideo {
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+
+.button_playvideo:hover {
+  background-color: rgb(179, 29, 29);
+  color: white;
+}
+
+.button_go:hover {
+  background-color: royalblue;
+  color: white;
+}

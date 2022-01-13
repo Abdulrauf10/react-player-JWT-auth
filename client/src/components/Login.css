@@ -1,0 +1,69 @@
+.login {
+justify-content: center;
+height: 100vh;
+}
+
+.login_image {
+  background-image: linear-gradient(to top,rgba(0,0,0, .8), rgba(255,255,255, .4)), url(../images/books.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form_login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_login {
+  margin-bottom: 15px;
+  width: 250px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.login_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+  width: 100%;
+  color: orange;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.button_logintocollection {
+  margin-top: 15px;
+  width: 250px;
+  border: none;
+  height: 30px;
+  background-color: orange;
+  color: white;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.button_logintocollection:hover {
+  background-color: royalblue;
+}
+
+@media only screen and (max-width: 400px) {
+ .login_image {
+   height: 40vh;
+ }
+
+ .login_page {
+   height: 40vh;
+ }
+
+ .form_login {
+   height: 60vh;
+ }
+}

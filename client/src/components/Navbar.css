@@ -1,0 +1,44 @@
+.logout {
+  background-color: rgb(201, 26, 26);
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.button_logout {
+  background-color: white;
+  border: white;
+  padding: 2px;
+  font-weight: bold;
+  width: 90px;
+  color: #515151;
+  border-radius: 5px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.button_logout:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  .logout {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logout {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .logout {
+    width: 100%;
+  }
+}
